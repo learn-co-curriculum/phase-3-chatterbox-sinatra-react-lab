@@ -75,7 +75,8 @@ GEM
     sinatra-activerecord (2.0.23)
       activerecord (>= 4.1)
       sinatra (>= 1.0)
-    sqlite3 (1.4.2)
+    sqlite3 (1.7.3-arm64-darwin)
+    sqlite3 (1.7.3-x86_64-darwin)
     thin (1.8.1)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
@@ -86,11 +87,12 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  arm64-darwin-23
   universal-darwin-20
   x86_64-darwin-19
 
 DEPENDENCIES
-  activerecord (~> 6.1)
+  activerecord
   database_cleaner (~> 2.0)
   pry (~> 0.14.1)
   rack-contrib (~> 2.3)
@@ -103,7 +105,7 @@ DEPENDENCIES
   rspec-json_expectations (~> 2.2)
   sinatra (~> 2.1)
   sinatra-activerecord (~> 2.0)
-  sqlite3 (~> 1.4)
+  sqlite3 (~> 1.7)
   thin (~> 1.8)
 
 BUNDLED WITH

@@ -1,3 +1,5 @@
+Message.all.destroy_all
+
 puts "🌱 Seeding messages..."
 
 Message.create([
